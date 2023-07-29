@@ -1,0 +1,40 @@
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  fill: #fff !important;
+  overflow: hidden;
+}
+
+.custom-scroll-bar {
+  &::-webkit-scrollbar-track {
+    background-color: #fafafa !important;
+  }
+
+  /*定义滚动条高宽及背景*/
+
+  &::-webkit-scrollbar {
+    width: 0 !important;
+  }
+
+  /*定义滚动条*/
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #e0e0e0;
+    border-radius: 10px !important;
+  }
+}
